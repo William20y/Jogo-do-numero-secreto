@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];
-let numeroLimite = 10;
+let numeroLimite = 100;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -18,7 +18,7 @@ function exibirTextoNaTela(tag, texto) {
 // document.query sigfnica 
 function exibirMensagemInical(){
     exibirTextoNaTela('h1', 'Jogo do número secreto');
-    exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
+    exibirTextoNaTela('p', 'Escolha um número entre 1 e 100');
 }
 exibirMensagemInical();
 
@@ -77,3 +77,11 @@ function reiniciarJogo(){
 //push adiciona itens ao final da lista, frutas.push("morango"); adicionou morango a lista
 //pop tira o ultimo item da lista frutas.pop("")
 //.length ve a quantidade de itens da lista console.log(frutas.length); mostra quantos itens tem na lista
+
+
+//depois de termimar de codar e querer subir a as atualizacoes usamos 3 codigos no terminal do proprio vscode
+//git add para preparar alterações
+//git commit -m "sua mensagem aqui" resgitra oque vc fez de atualização
+//git push origin main envia tudo para o git hub
+//git status verificar quais arquivos foram modificados
+//git pull baixar as mudanças foram feitas
