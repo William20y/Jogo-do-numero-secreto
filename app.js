@@ -85,3 +85,8 @@ function reiniciarJogo(){
 //git push origin main envia tudo para o git hub
 //git status verificar quais arquivos foram modificados
 //git pull baixar as mudanças foram feitas
+//git revert cria um novo commit que desfaz as mudanças feitas
+//git reset --hard id para apagar um commit
+//git commit --amend -m "mensagem certa" editando um commit que está errado apenas quanndo LOCAL]
+
+
