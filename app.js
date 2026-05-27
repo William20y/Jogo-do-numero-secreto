@@ -89,4 +89,4 @@ function reiniciarJogo(){
 //git reset --hard id para apagar um commit
 //git commit --amend -m "mensagem certa" editando um commit que está errado apenas quanndo LOCAL]
 
-
+//mas como q eu faco pra volttar pra esse log
